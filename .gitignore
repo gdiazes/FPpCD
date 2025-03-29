@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Entornos virtuales
+venv/
+env/
+.env/
+
+# Datos (opcional, ajustar según necesidades del curso)
+*.csv
+*.xlsx
+semana_*/datasets/raw/
+recursos_comunes/datasets/*.csv  # Permitir datasets comunes
+
+# Imágenes generadas
+semana_*/imagenes/*.png
+semana_*/imagenes/ejemplo_*.png  # Mantener ejemplos
+
+# Modelos
+*.pkl
+*.joblib
+*.h5
+
+# IDE
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
