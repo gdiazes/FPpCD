@@ -1,4 +1,3 @@
-¡Claro, Elliot! Aquí tienes una publicación lista para GitHub en formato **Markdown** (`README.md`) explicando qué es Markdown, para qué sirve y cómo usarlo paso a paso 🚀:
 
 ```markdown
 # 📘 Introducción a Markdown
