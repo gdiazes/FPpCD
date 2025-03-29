@@ -99,5 +99,3 @@ Markdown es una herramienta esencial para desarrolladores, escritores y creadore
 > ✨ *"La simplicidad es la máxima sofisticación."* — Leonardo da Vinci
 
 ```
-
-¿Te gustaría que convierta esto en un archivo PDF y Word listo para compartir también?
