@@ -1,4 +1,4 @@
-¡Perfecto, Elliot! Aquí tienes una publicación en Markdown con los comentarios explicativos separados visualmente del código. Esta estructura es ideal para usar en GitHub, blogs técnicos o Notebooks educativos 🧠📘:
+
 
 markdown
 Copiar
