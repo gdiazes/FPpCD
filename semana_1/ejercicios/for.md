@@ -1,8 +1,5 @@
 
 
-markdown
-Copiar
-Editar
 # 🐍 Estructuras de Control en Python: `for`, `if`, `while`
 
 Esta guía muestra cómo usar `for`, `if` y `while` en Python, con ejemplos que escalan de lo básico a lo complejo.  
