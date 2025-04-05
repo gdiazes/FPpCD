@@ -1,14 +1,16 @@
-### Ejercicio 6: Desempaquetado de Tuplas (Nivel 4)
-**Objetivo:** Desempaquetar correctamente una tupla en variables.
+### Ejercicio 3: Operaciones con Tuplas (Nivel 3)
+**Objetivo:** Realizar operaciones básicas con tuplas.
 
 **Código con errores:**
 ```python
-datos_personales = ("Ana", 25, "Madrid")
-nombre, edad, ciudad, país = datos_personales
-print(f"{nombre} tiene {años} años y vive en {ciudad}")
+tupla1 = (1, 2, 3)
+tupla2 = (4, 5, 6)
+tupla_combinada = tupla1.append(tupla2)
+tupla1[0] = 10
+print(len(tupla_combinada))
 ```
 
 **Pistas:**
-- El número de variables debe coincidir con el número de elementos en la tupla.
-- Asegúrate de usar los nombres de variables correctos en el string formateado.
-- Revisa la cantidad de elementos que estás tratando de desempaquetar.
+- Las tuplas no tienen método `.append()`, se concatenan de otra manera.
+- Las tuplas son inmutables, no se pueden modificar después de creadas.
+- `len()` devuelve la cantidad de elementos en una secuencia.
