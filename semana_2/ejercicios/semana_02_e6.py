@@ -1,4 +1,4 @@
-### Ejercicio 3: Operaciones con Tuplas (Nivel 3)
+### Ejercicio 6: Operaciones con Tuplas (Nivel 3)
 **Objetivo:** Realizar operaciones básicas con tuplas.
 
 **Código con errores:**
