@@ -1,4 +1,4 @@
-### Ejercicio 5: Desempaquetado de Tuplas (Nivel 4)
+### Ejercicio 6: Desempaquetado de Tuplas (Nivel 4)
 **Objetivo:** Desempaquetar correctamente una tupla en variables.
 
 **Código con errores:**
