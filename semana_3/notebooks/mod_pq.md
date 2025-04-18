@@ -3,6 +3,15 @@
 
 La conceptualización de módulos y paquetes en Python se deriva directamente de la necesidad de organizar y reutilizar el código de manera efectiva, una evolución natural de los principios de la programación estructurada. La **Referencia del Lenguaje Python (Python Software Foundation, s.f., sección 6)** describe formalmente el sistema de importación y la estructura de módulos y paquetes, que son la base para compartir y organizar el código en Python.
 
+**Estructura de Carpetas del proyecto**
+
+Imaginemos que tenemos un proyecto principal donde usaremos nuestra calculadora:
+
+```
+mi_proyecto/
+├── calculadora/              <-- Directorio del Paquete
+```
+
 **1. Creación de un Módulo (`operaciones_basicas.py`)**
 
 Un **módulo** en Python es, en su forma más simple, un archivo individual que contiene código Python (definiciones de funciones, clases, variables). Sirve como una unidad lógica para agrupar funcionalidades relacionadas y actúa como su propio espacio de nombres, evitando colisiones entre identificadores definidos en diferentes archivos.
@@ -53,6 +62,19 @@ Un **módulo** en Python es, en su forma más simple, un archivo individual que 
 **2. Creación de un Paquete (`calculadora`)**
 
 Un **paquete** es una forma de estructurar el espacio de nombres de los módulos de Python utilizando una jerarquía de directorios. Un directorio se convierte en un paquete si contiene un archivo especial llamado `__init__.py`. Este archivo puede estar vacío, pero su presencia indica a Python que el directorio debe ser tratado como un paquete, permitiendo importar módulos de él o submódulos dentro de él usando la notación de puntos (`.`).
+
+**Estructura de Carpetas Resultante (Árbol)**
+
+Imaginemos que tenemos un proyecto principal donde usaremos nuestra calculadora:
+
+```
+mi_proyecto/
+├── calculadora/              <-- Directorio del Paquete
+│   ├── __init__.py           <-- Archivo que define 'calculadora' como paquete
+│   └── operaciones_basicas.py  <-- Nuestro módulo con las funciones
+├── main_script.py            <-- Un script que usará el paquete
+└── README.txt                <-- Documentación del proyecto/paquete
+```
 
 **Paso a Paso y Sintaxis:**
 
