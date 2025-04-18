@@ -1,4 +1,5 @@
-¡Excelente! Ampliando nuestro análisis desde las funciones individuales hacia estructuras de código más organizadas, exploraremos la creación de módulos y paquetes en Python, utilizando nuestras funciones de operaciones matemáticas básicas como ejemplo. Este enfoque es fundamental para construir bibliotecas reutilizables y gestionar la complejidad en proyectos de investigación más grandes.
+## Crear módulos y paquete mediante funciones
+
 
 La conceptualización de módulos y paquetes en Python se deriva directamente de la necesidad de organizar y reutilizar el código de manera efectiva, una evolución natural de los principios de la programación estructurada. La **Referencia del Lenguaje Python (Python Software Foundation, s.f., sección 6)** describe formalmente el sistema de importación y la estructura de módulos y paquetes, que son la base para compartir y organizar el código en Python.
 
