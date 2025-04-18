@@ -5,11 +5,9 @@ La conceptualización de módulos y paquetes en Python se deriva directamente de
 
 **Estructura de Carpetas del proyecto**
 
-Imaginemos que tenemos un proyecto principal donde usaremos nuestra calculadora:
-
 ```
 mi_proyecto/
-├── calculadora/              <-- Directorio del Paquete
+├── operaciones_basicas.py          <-- Módulo con las funciones
 ```
 
 **1. Creación de un Módulo (`operaciones_basicas.py`)**
