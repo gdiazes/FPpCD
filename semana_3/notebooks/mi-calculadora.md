@@ -1,7 +1,3 @@
-¡Perfecto! Adaptaremos el manual para usar explícitamente `python3` y `python3 -m pip`, lo cual es una práctica recomendada en Ubuntu y otros sistemas Linux donde `python` podría referirse a Python 2 o no estar definido. También incluiremos la posible necesidad de instalar `python3-venv` vía `apt`.
-
----
-
 **Manual Paso a Paso: Creación y Publicación de la Librería Python `mi-calculadora` en PyPI (Ubuntu/Linux)**
 
 **Introducción**
