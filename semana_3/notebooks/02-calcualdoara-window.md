@@ -77,20 +77,26 @@ mi-calculadora-proyecto/
     └── test_calculadora.py  # (Opcional pero recomendado)
 ```
 
-En Windows, puedes crear esta estructura usando el Explorador de Archivos o comandos en cmd:
+En Windows, puedes crear esta estructura usando el Explorador de Archivos o comandos en git bash:
 
 ```
-mkdir C:\Proyectos\mi-calculadora-proyecto
-cd C:\Proyectos\mi-calculadora-proyecto
+mkdir Proyectos
+cd Proyectos
+mkdir mi-calculadora-proyecto
+cd mi-calculadora-proyecto
 mkdir src
-mkdir src\mi_calculadora
-mkdir tests
-type nul > LICENSE
-type nul > README.md
-type nul > pyproject.toml
-type nul > src\mi_calculadora\__init__.py
-type nul > src\mi_calculadora\operaciones.py
-type nul > tests\test_calculadora.py
+mkdir src
+cd src
+mkdir mi_calculadora
+cd mi_calculadora
+touch __init__.py
+touch operaciones.py
+mkdir ../../tests
+touch LICENSE
+touch README.md
+touch pyproject.toml
+cd tests
+touch test_calculadora.py
 ```
 
 ### Paso 3: Escribir el Código de la Librería
